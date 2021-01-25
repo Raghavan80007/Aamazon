@@ -31,7 +31,7 @@ class Testcase(BaseClass):
             print(mobilename)
             print(cost)
 
-            with open('C://Users//AL3500//Desktop//productprice.csv', 'a', encoding="utf-8", newline='') as f:
+            with open('C://Users//Zia//Desktop//productprice.csv', 'a', encoding="utf-8", newline='') as f:
                 w = csv.writer(f)
                 w.writerow(["productname", "price"])
                 for mobile in range(len(mobilename)):

@@ -9,7 +9,7 @@ def pytest_addoption(parser):
 def setUp(request):
     browser_name=request.config.getoption("browser_name")
     if(browser_name=='chrome'):
-        driver = webdriver.Chrome(executable_path='D:/chromedriver_win32/chromedriver.exe')
+        driver = webdriver.Chrome(executable_path='D:/GIT/chromedriver_win32/chromedriver.exe')
 
 
     elif(browser_name =='ie'):
